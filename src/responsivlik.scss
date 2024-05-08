@@ -1,3 +1,19 @@
+@media only screen and (max-width:540px){
+    .header__main,.SortMenu,.toDoList,.toDoList ul,.adder div{
+        width: 327px !important;
+    }
+    .SortMenu{
+        position: relative;
+        ul{
+            position: absolute;
+            bottom: -50px;
+            width: 100%;
+            padding: 20px;
+            left: 0;
+        }
+    }
+    }
+    
 @media only screen and (max-width:380px){
 .header__main,.SortMenu,.toDoList,.toDoList ul,.adder div{
     width: 327px !important;
@@ -13,3 +29,24 @@
     }
 }
 }
+
+@media only screen and (max-width:370px){
+    .header__main,.SortMenu,.toDoList,.toDoList ul,.adder div{
+        width: 100% !important;
+        padding: 5%;
+    }
+    .adder div .TodoComplate{
+        top: 50% !important;
+        transform: translate(0,-50%);
+    }
+    .SortMenu{
+        position: relative;
+        ul{
+            position: absolute;
+            bottom: -50px;
+            width: 100%;
+            padding: 20px;
+            left: 0;
+        }
+    }
+    }

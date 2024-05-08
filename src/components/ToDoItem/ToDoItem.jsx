@@ -14,7 +14,9 @@ const ToDoItem = ({ item, index, handleComplateChange }) => {
             >
                 {complate ? <i className="fa-solid fa-check"></i> : ''}
             </button>
-            <span className={spanClass}>{item.content}</span>
+            <span className={spanClass}>   
+                {item.content.length > 30 ?<> {item.content.slice(0, 20)} <abbr title={item.content}>...</abbr> </> :item.content.slice(0, 20)  }
+            </span>
         </div>
     );
 };
