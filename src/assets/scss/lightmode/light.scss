@@ -1,0 +1,33 @@
+$bg-color:#ffffff;
+$bgC-color:#fff;
+.bg-main{
+    background: $bg-color;
+}
+
+.app-light{
+    .bg-content{
+        background:  $bgC-color;
+    }
+    .bb-content{
+        border-bottom:1px solid #E3E4F1;
+    }
+    .header{
+        background-image:
+            linear-gradient(-145deg,#5596ffBF,#AC2DEBBF ) ,
+            url(https://s3-alpha-sig.figma.com/img/03b8/22a8/10f232874b021926bb904eafb394287f?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W2UbKhGFnYrpmolIeEKMcTzg6KklgiEM4qbb~6WHe96Z46VdnziBMQ8lATqEc-OZuJ-bBJAZnXSkbprfyrXdqgbeR3GsvMeljsQ4vngUt7nkqwzoLa6yW-L6HmtBg3g-MzWeuT90eVrCGxCgQ59FW5XP9PppUMbZPJULWFgdk04rvKFiuEsSuKLFfROhUbgrg~ehz2wfjr-3OD2iGSs1I19E-FSEprG3LpvIW-Myd6ynWqrWbK684Q1DbVGk9CUoh3joJcQyHFB94rNeVmbGAoKHb5YLv5lygrNVO-BsuvC1s3S0aaX2YWh5sFoLQLamNfJHirjBqpvcxE7AIjMjBA__);
+        background-position:center;
+        background-size:100% 960px;
+        background-repeat: no-repeat;
+        .adder{
+            input{
+                &::placeholder{
+                    color:  #9495A5;
+
+                }
+            }
+        }
+    }
+    .complate__span{
+        color: #D1D2DA;
+    }
+}

@@ -1,0 +1,37 @@
+$bg-color:#000;
+$bgC-color:#25273D;
+.app-dark.bg-main{
+        background: $bg-color;
+}
+
+.app-dark{
+    .bg-content{
+        background-color:  $bgC-color;
+    }
+    color: #C8CBE7 ;
+    .header{
+        background-image:  linear-gradient(135deg, #3710BDbf 0%, #A42395bf 100%),
+        url(https://s3-alpha-sig.figma.com/img/a0f4/beb0/598988b6993552d320eca695eaadbb10?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d1OqMDbi~yl-FgTMY2bHh67A-WSkr0Gh1vKiDno-r94fi8mdbl28g7brb2d0dLaeU17tqu1RvHh9cwIvwMJkkdt0BVcpICvKSMwUZFTC0dFNlB0HgNteZlgsMMZ5VoGZ2BPVm1XlmqG1VSE1huP2XqFeOlqm~C41czAuvoSHkVBp1CX9~O7ZYazY3ryUOY2uKzB3YREUlCg2QyLjhh16GAF0vT1teICa1tQXSfwTH5xa-j8QdwD1ZyzW9xUnwucArbCxNxxiFSdhnkMuDaI5dpVay1C~VMQsLz8wzQhDtK7Wul1PiBrHWpA6L4zCqgdgH5cGSb-iGX1mFZzxm8oriw__)       ;
+        background-position: 70% 50%;
+        background-size: 2838px 1892px;
+        background-repeat: no-repeat;
+        .adder{
+            input{
+                color: #C8CBE7;
+                &::placeholder{
+                    color:  #C8CBE7;
+
+                }
+            }
+        }
+    }
+    .SortMenu{
+        span,button{
+            color: #767992;
+        }
+    }
+    .complate__span{
+        color:#4D5067 ;
+    }
+}
+

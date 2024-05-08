@@ -1,0 +1,18 @@
+.toDoList{
+
+    width: 540px;
+    position: relative;
+    top: -64px;
+    margin: auto;
+    border-radius: 10px;
+    ul{
+        border-radius: 10px;
+        margin:0px 0 -10px ;
+    }
+    ul> .toDoItem{
+            border-radius: 10px;
+        }
+}
+.SortMenu{
+    border-radius: 10px;
+}
